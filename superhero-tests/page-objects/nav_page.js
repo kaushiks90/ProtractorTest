@@ -43,7 +43,7 @@ NavPage.prototype = Object.create({}, {
 
     wolverinPopupHeader: {
         get: function () {
-            return element(by.id('#wolverineModalLabel'))
+            return element(by.id('wolverineModalLabel'))
         }
     },
     wolverinPopupMessage: {
@@ -65,7 +65,7 @@ NavPage.prototype = Object.create({}, {
 
     spidermanPopupHeader: {
         get: function () {
-            return element(by.id('#spidermanModalLabel'))
+            return element(by.id('spidermanModalLabel'))
         }
     },
     spidermanPopupMessage: {
