@@ -11,7 +11,8 @@ exports.config = {
         // './test/login_spec.js',
         //'./test/header_spec.js'
         // './test/nav_spec.js'
-        './test/roster_spec.js'
+        // './test/roster_spec.js'
+        './test/vote_spec.js'
     ],
 
     jasmineNodeOpts: {

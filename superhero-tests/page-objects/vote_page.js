@@ -32,43 +32,43 @@ VotePage.prototype = Object.create({}, {
     },
 
 
-    submitBtm: {
+    submitBtn: {
         get: function () {
-            return element(by.xpath('//*[@id="vote-form"]/button'))
+            return element(by.css('#vote-form > button'))
         }
     },
 
 
     xmenRbtn: {
         get: function () {
-            return element(by.id('#heroMovieRadio1'))
+            return element(by.id('heroMovieRadio1'))
         }
     },
     avengersRbtn: {
         get: function () {
-            return element(by.id('#heroMovieRadio2'))
+            return element(by.id('heroMovieRadio2'))
         }
     },
     deadPoolRbtn: {
         get: function () {
-            return element(by.id('#heroMovieRadio3'))
+            return element(by.id('heroMovieRadio3'))
         }
     },
     spiderManRbtn: {
         get: function () {
-            return element(by.id('#heroMovieRadio4'))
+            return element(by.id('heroMovieRadio4'))
         }
     },
 
     IronManRbtn: {
         get: function () {
-            return element(by.id('#heroMovieRadio5'))
+            return element(by.id('heroMovieRadio5'))
         }
     },
 
     voteForm: {
         get: function () {
-            return element(by.id('#vote-form'))
+            return element(by.id('vote-form'))
         }
     },
 
