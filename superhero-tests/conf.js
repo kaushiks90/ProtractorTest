@@ -10,7 +10,8 @@ exports.config = {
     specs: [
         // './test/login_spec.js',
         //'./test/header_spec.js'
-        './test/nav_spec.js'
+        // './test/nav_spec.js'
+        './test/roster_spec.js'
     ],
 
     jasmineNodeOpts: {

@@ -37,12 +37,12 @@ RosterPage.prototype = Object.create({}, {
     },
     addSuperHeroTxt: {
         get: function () {
-            return element(by.id('#heroInput'))
+            return element(by.id('heroInput'))
         }
     },
     addSuperHeroBtn: {
         get: function () {
-            return element(by.xpath('//*[@id="addHero-form"]/button'))
+            return element(by.css('#addHero-form > button'))
         }
     },
 })
